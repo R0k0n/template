@@ -4,7 +4,7 @@ vector<ll>parent(1000006);
 vector<ll>sze(1000006);
 
 void make_set(int v) {
-    //for(ll i = 0 ; i <= v ; i++){parent[i] = i;size[i] = 1;}
+    //for(ll i = 0 ; i <= v ; i++){parent[i] = i;sze[i] = 1;}
     parent[v] = v;sze[v] = 1;
 }
 
