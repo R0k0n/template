@@ -3,7 +3,7 @@
  #define MAX 1000006
 int failure[MAX];
 
-void build_failure_function(string pattern, int m) {
+void build_failure_function(string &pattern, int m) {
   failure[0] = 0;
   failure[1] = 0; //base case
 
