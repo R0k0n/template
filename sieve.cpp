@@ -1,3 +1,5 @@
+        //In main finction
+
         int n;n = 10000007;
         vector<bool> is_prime(n+1, true);
         is_prime[0] = is_prime[1] = false;
