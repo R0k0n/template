@@ -1,5 +1,4 @@
 
-vector<ll>v[200005];
 vector<ll>parent(1000006);
 vector<ll>sze(1000006);
 
