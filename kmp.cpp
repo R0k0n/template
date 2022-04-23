@@ -27,7 +27,7 @@ void build_failure_function(string &pattern, int m) {
     }
   }
 }
- int kmp(string text, string pattern)
+ int kmp(string &text, string &pattern)
 {
   int cnt = 0;
   int n = text.size();
