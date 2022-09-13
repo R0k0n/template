@@ -8,7 +8,6 @@ ll bigmod(ll a, ll b, ll mod) {
     return x;
 }
 
-// return (1 / a) % b. multiply this with ans.
 ll inverse_mod(ll a, ll b) {
     ll ret = bigmod(b , MOD - 2 , MOD);
     ret = (ret * a) % MOD;
